@@ -36,7 +36,7 @@ namespace Lesson0204.Classes
                 usList = GetUsers();
             foreach (var item in usList)
             {
-                if(item.email ==_email )//&& new Crypto().veryfy(item.password,_pass) == true)
+                if(item.email ==_email)// && new Crypto().veryfy(item.password,_pass) == true)
                 MessageBox.Show(item.ToString());
             }
             //string connectionString = @"Data Source=DESKTOP-54SAU6R\SQLEXPRESS;Initial Catalog=Users;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
