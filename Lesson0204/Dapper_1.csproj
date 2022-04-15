@@ -95,12 +95,6 @@
     <Compile Include="MyFolder\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyFolder\SignUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MyFolder\SignUp.Designer.cs">
-      <DependentUpon>SignUp.cs</DependentUpon>
-    </Compile>
     <Compile Include="MyFolder\SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,9 +108,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyFolder\SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyFolder\SignUp.resx">
-      <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

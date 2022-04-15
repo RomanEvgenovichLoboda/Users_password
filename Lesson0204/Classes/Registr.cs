@@ -54,7 +54,7 @@ namespace Lesson0204.Classes
 
             using (IDbConnection connection = new SqlConnection(connectionString))
             {
-                return connection.Query<User>($"SELECT * FROM [Users] WHERE email = {str1} AND password = {str2}").ToList();
+                return connection.Query<User>($"SELECT * FROM [Users] ").ToList();
             }
         }
     }

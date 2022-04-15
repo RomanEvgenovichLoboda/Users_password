@@ -8,7 +8,14 @@ namespace Lesson0204.Classes
 {
     class User
     {
-        public User() { }
+
+       // public User() { }
+        //public User(int _Id,string _email,string _password) 
+        //{
+        //    id = _Id;
+        //    email = _email;
+        //    password = _password;
+        //}
         public int id { get; set; }
         public string email { get; set; }
         public string password { get; set; }
