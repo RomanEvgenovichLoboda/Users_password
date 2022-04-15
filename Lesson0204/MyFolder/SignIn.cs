@@ -17,15 +17,29 @@ namespace Lesson0204.MyFolder
         {
             InitializeComponent();
         }
-
+        public SignIn(int i)
+        {
+            InitializeComponent();
+            label1.Text = "Lodin";
+            button1.Text = "SignIn";
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text == "" || textBox2.Text == "") { MessageBox.Show("empty line"); }
+            if (textBox1.Text == "" || textBox2.Text == "") { MessageBox.Show("empty line"); }
             else
             {
                 Registr reg = new Registr();
-                reg.Regestration(textBox1.Text, textBox2.Text);
-            }
+                if (button1.Text == "SignIn")
+                {
+
+                    this.Close();
+                }
+                else
+                {
+                    reg.Regestration(textBox1.Text, textBox2.Text);
+                    this.Close();
+                }
+            } 
         }
     }
 }
