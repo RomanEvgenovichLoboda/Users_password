@@ -32,8 +32,7 @@ namespace Lesson0204.Classes
         }
         public void signIn(string _email, string _pass)
         {
-            List<User> usList = new List<User>();
-                usList = GetUsers();
+            List<User> usList = GetUsers();
             foreach (var item in usList)
             {
                 if(item.email ==_email)// && new Crypto().veryfy(item.password,_pass) == true)
