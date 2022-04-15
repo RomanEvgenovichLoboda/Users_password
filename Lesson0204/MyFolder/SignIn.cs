@@ -31,7 +31,7 @@ namespace Lesson0204.MyFolder
                 Registr reg = new Registr();
                 if (button1.Text == "SignIn")
                 {
-
+                    reg.signIn(textBox1.Text, textBox2.Text);
                     this.Close();
                 }
                 else
