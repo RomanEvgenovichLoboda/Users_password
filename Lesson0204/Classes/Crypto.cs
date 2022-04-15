@@ -13,5 +13,9 @@ namespace Lesson0204.Classes
         {
             return BCrypt.Net.BCrypt.HashPassword(pass);
         }
+        public bool veryfy(string pass, string hash)
+        {
+            return BCrypt.Net.BCrypt.Verify(pass, hash);
+        }
     }
 }
