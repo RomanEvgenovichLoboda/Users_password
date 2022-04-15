@@ -17,13 +17,11 @@ namespace Lesson0204
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             SignIn sIn = new SignIn();
             sIn.ShowDialog();
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             SignIn sIn = new SignIn(1);

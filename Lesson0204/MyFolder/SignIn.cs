@@ -46,7 +46,6 @@ namespace Lesson0204.MyFolder
                 }
             }
             else { MessageBox.Show("Wrong email format"); }
-           
         }
     }
 }
